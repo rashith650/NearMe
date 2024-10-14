@@ -1,7 +1,7 @@
 # Ex04 Places Around Me
-## Date: 
+## Date: 14-10-24
 
-## AIM
+## AIM:
 To develop a website to display details about the places around my house.
 
 ## DESIGN STEPS
@@ -25,78 +25,147 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-<HTML>
-    <HEAD>
-        <TITLE>My City</TITLE>
-    </HEAD>
-    <BODY>
-        <h1 align="center">
-            <font color="ligthred"><b>Coimbatore</b></font>
-        </h1>
-        <h3 align="center">
-            <font color="blue"><b>MOHAMED RASHITH S(24001082)</b></font>
-        </h3>
-        <CENTER>
-            <img src="C:\Users\admin\Desktop\new html\MAP.png" usemap="#mymap" height="500" width="1000">
-            <map name="mymap">
-                <area title="Perur Pateeswarar Temple" href="temple1.html" coords="652,320,880,398" shape="rect">
-                <area title="Gass Forest Museum" href=" Museum.html" coords="452,600,208" shape="circle">
-                <area title="Monkey Falls" href="Monkey.html" coords="819,400,981,881" shape="rect">
-                <area title="Velliangiri Mountains" href="Velliangiri.html" coords="422,481,119" shape="circle">
-            </map>
+```
+map.html
 
-        </CENTER>
-    </BODY>
-</HTML>
-[2:10 PM, 10/7/2024] MOHAMED RASHITH S: <HTML>
-    <HEAD>
-        <TITLE>temple4</TITLE>
-    </HEAD>
-    <body bgcolor="violet">
-        <h1 align="center">
-            <font color="maroon">Coimbatore</font>
-        </h1>
-        
-        <h3 align="center">
-            <font color="blueviolet">Velliangiri Mountains</font>
-        </h3>
-        <hr color="green" align="center">
-        <br>
-        <p><h4>
-            The Velliangiri Mountains (Tamil: வெள்ளியங்கிரி மலை) a part of the Nilgiri Biosphere Reserve are situated at the Western Ghats of Coimbatore district, Tamil Nadu. Known as the "Sapthagiri, 7 Hills (Tamil: சப்தகிரி, ஏழுமலை) - Seven Mountains", these mountains are held and revered on par with spiritually most powerful place on the planet - Mount Kailash, the legendary abode of Shiva. On the top of the Velliangiri Mountains, Shiva is worshipped as Swayambhu, one who is self-created and in this form, he graces the devotees.
-       </h4></p>
-    </body>
-</HTML>
-[2:10 PM, 10/7/2024] MOHAMED RASHITH S(AIML): <HTML>
-    <HEAD>
-        <TITLE>temple2</TITLE>
-    </HEAD>
-    <body bgcolor="violet">
-        <h1 align="center">
-            <font color="green">Coimbatore</font>
-        </h1>
-        
-        <h3 align="center">
-            <font color="lightgreen">Gass Forest Museum</font>
-        </h3>
-        <hr color="maroon" align="center">
-        <br>
-        <p><h4>
-            Toward the end of the 19th century, an aborted attempt was made by J. A. Gamble, the conservator of forests for Madras Presidency, to establish a forest museum in the province. A few years later in 1902, Gamble's successor as Conservator of Forests Horace Arichibald Gass succeeded in establishing a museum for forestry. It was opened to the public 15 April 1902 by Baron Ampthill, the then Governor of Madras, at that point simply referred to as the Forest Museum at Coimbatore. When Gass, the first curator, retired in 1905, his successor F. A. Lodge renamed the museum in his honor. It was expanded in 1905 and 1915. In 1912, the Madras Forestry College (currently the Tamil Nadu Forest Academy) was established in the museum grounds to train foresters.
-        </h4></p>
-    </body>
-</HTML>
+<!DOCTYPE html>
+<html>
+<head>
+<title>NELLORE</title>
+</head>
+<body>
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b> MANI SRI LATHA (212223110025)</b></h3>
+<center>
+    <img src="nellore.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="" alt="Acer Mall" title="Acer Mall" href="acer.html" coords="810,216,964,286" shape="rect">
+        <area target="" alt="Benelli Keeway" title="Benelli Keeway" href="benelli.html" coords="1087,357,1339,422" shape="rect">
+        <area target="" alt="Priyadarshini College" title="Priyadarshini College" href="priyadarshini.html" coords="965,701,1178,709,971,809" shape="poly">
+        <area target="" alt="Barashahid Dargha" title="Barashahid Dargha" href="dargha.html" coords="702,372,100" shape="circle">
+        <area target="" alt="VPR Convention Center" title="VPR Convention Center" href="vpr.html" coords="662,754,878,820" shape="rect">
+    </map>
+</center>
+</body>
+</html>
+
+```
+```
+acer.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acer Mall</title>
+</head>
+<body bgcolor="cyan">
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b>Acer Mall Exclusive Store</b></h3>
+<hr size="3" color="white">
+<p align="center">
+<font face="Georgia" size="5">
+ 1)Acer Mall Exclusive Store, located in Ground Floor, Opp.Madras Bus Stand, Main Road, Nellore, Andhra Pradesh, 524001<br>
+2)Acer exclusive stores are the perfect place to find the latest and greatest in Acer technology. With knowledgeable staff on hand to help you find the perfect product.<br>
+
+</p>
+</body>
+</html>
+```
+```
+benelli.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Benelli Keeway</title>
+</head>
+<body bgcolor="lavender">
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b>Benelli Keeway</b></h3>
+<hr size="3" color="white">
+<p align="center">
+<font face="Georgia" size="5">
+ 1)Benelli Keeway , located in Opp: Medicover Hospital, Sy no-932/A,Ayodhya Nagar Extension, NH16, Pinakini Avenue, Nellore, Andhra Pradesh 524003<br>
+2)Benelli is a company which develops and produces motorbikes, with registered office at Strada della Fornace Vecchia, sn, 61122 Pesaro (PU), Italy, belonging to the Qianjiang group headquartered in Wenling, Zhejiang province, China.<br>
+
+</p>
+</body>
+</html>
+```
+```
+dargha.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Barashahid Dargha</title>
+</head>
+<body bgcolor="violet">
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b>Barashahid Dargha</b></h3>
+<hr size="3" color="white">
+<p align="center">
+<font face="Georgia" size="5">
+ 1)Bara Shaheed Darga , located in Bara Shaheed Darga, Ambedkar Nagar, Nellore, Andhra Pradesh 524003<br>
+ 2)As per local tradition and according to stone slate in the campus of dargah that reads in Persian, they were twelve tombs of warriors part of first Muslim army to enter into the region and were martyred in the battle Of Karabala.<br>
+ 3)"Bara Shaheed Dargah" literally reads "Shrine of twelve martyrs" in Urdu. Dargah is on the bank of the Nellore water tank/lake, and has eid-gah, a tourist resort, and park next to it.<br>
+
+</p>
+</body>
+</html>
+```
+```
+priyadarshini.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Priyadarshini College</title>
+</head>
+<body bgcolor="purple">
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b>Priyadarshini College</b></h3>
+<hr size="3" color="white">
+<p align="center">
+<font face="Georgia" size="5">
+ 1)Bara Shaheed Darga , located in Bara Shaheed Darga, Ambedkar Nagar, Nellore, Andhra Pradesh 524003<br>
+ 2)As per local tradition and according to stone slate in the campus of dargah that reads in Persian, they were twelve tombs of warriors part of first Muslim army to enter into the region and were martyred in the battle Of Karabala.<br>
+ 3)"Bara Shaheed Dargah" literally reads "Shrine of twelve martyrs" in Urdu. Dargah is on the bank of the Nellore water tank/lake, and has eid-gah, a tourist resort, and park next to it.<br>
+ 
+</p>
+</body>
+</html>
+```
+```
+VPR.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>vpr convention center</title>
+</head>
+<body bgcolor="lavender">
+<h1 align="center"><b>NELLORE</b></h1>
+<h3 align="center"><b>VPR convention center</b></h3>
+<hr size="3" color="white">
+<p align="center">
+<font face="Georgia" size="5">
+ 1)VPR convention center is located in Nellore-Golagamudi Road, Kanuparthipadu, Village, Nellore, Andhra Pradesh 524004<br>
+ 2)The prophet dream of Sri Vemireddy Prabhakar Reddy garu, in giving a monumental place of gathering to celebrate for the people of his home town Nellore is the origin of the very existence of the most exclusive and astounding celebration destination – THE VPR CONENTION CENTER.<br>
+
+</p>
+</body>
+</html>
+```
+
 
 ## OUTPUT
-
-![Screenshot 2024-10-07 160235](https://github.com/user-attachments/assets/08c2c3e1-be5c-4cbb-af1c-d55c03416af4)
-
-
-![Screenshot 2024-10-07 160625](https://github.com/user-attachments/assets/29e68a99-3639-4241-a83e-e298f963c97a)
-
-![Screenshot 2024-10-07 160715](https://github.com/user-attachments/assets/74868441-85cc-4301-ac7c-1075547496bb)
-
-
+![Screenshot 2024-10-13 160244](https://github.com/user-attachments/assets/ce0edd6f-53fb-42b6-84da-eef5bc723ad4)
+![Screenshot 2024-10-13 155638](https://github.com/user-attachments/assets/b0739009-8c78-4c0e-bee6-8f50aacce04b)
+![Screenshot 2024-10-13 155659](https://github.com/user-attachments/assets/625ee3b7-7a7e-40db-87e7-2fc70b045de9)
+![Screenshot 2024-10-13 155722](https://github.com/user-attachments/assets/01a53f56-1e08-4959-82ea-35772955caa8)
+![Screenshot 2024-10-13 155742](https://github.com/user-attachments/assets/e645138d-80cf-4b0d-8473-789dfd6b2e27)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
