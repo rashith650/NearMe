@@ -1,7 +1,9 @@
 # Ex04 Places Around Me
-## Date: 14-10-24
+### Name : MOHAMED RASHITH S
+### Reg.no:24001082
+## Date:19.10.2024 
 
-## AIM:
+## AIM
 To develop a website to display details about the places around my house.
 
 ## DESIGN STEPS
@@ -25,147 +27,157 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
+### Map code:
 ```
-map.html
-
-<!DOCTYPE html>
 <html>
-<head>
-<title>NELLORE</title>
-</head>
-<body>
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b> MANI SRI LATHA (212223110025)</b></h3>
-<center>
-    <img src="nellore.png" usemap="#image-map">
+    <head>
+        <title>Velachery</title>
+        <style>
+            h1{
+                font-family: Algerian;
+                color: rgb(236, 112, 11);
+                font-size: large;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">welcome to Velachery\nBhuvaneshwaran</h1>
+        
+        <center>
+            <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-10-10 111948.png"usemap="#mapnew">
+            
+            <map name="mapnew">
+                <area target="" alt="Pheonix Marketcity" title="Pheonix Mall " href="pheonix_Mall.html" coords="296,253,596,337" shape="rect">
+                <area target="" alt="Grand Mall" title="Grand Mall" href="grand_Mall.html" coords="310,210,50" shape="circle">
+                <area target="" alt="Coal Barbecues" title="Coal" href="coal.html" coords="520,487,667,569" shape="rect">
+                <area target="" alt="Kora Food Street" title="Kora_food_Street" href="kora_food_street.html" coords="355,417,39" shape="circle">
+                <area target="" alt="Dhandeeswaram Temple" title="Dhandeeswaram Temple" href="dhandeeswaram_temple.html" coords="341,450,562,503" shape="rect">
+                
 
-    <map name="image-map">
-        <area target="" alt="Acer Mall" title="Acer Mall" href="acer.html" coords="810,216,964,286" shape="rect">
-        <area target="" alt="Benelli Keeway" title="Benelli Keeway" href="benelli.html" coords="1087,357,1339,422" shape="rect">
-        <area target="" alt="Priyadarshini College" title="Priyadarshini College" href="priyadarshini.html" coords="965,701,1178,709,971,809" shape="poly">
-        <area target="" alt="Barashahid Dargha" title="Barashahid Dargha" href="dargha.html" coords="702,372,100" shape="circle">
-        <area target="" alt="VPR Convention Center" title="VPR Convention Center" href="vpr.html" coords="662,754,878,820" shape="rect">
-    </map>
-</center>
-</body>
-</html>
-
-```
-```
-acer.html
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Acer Mall</title>
-</head>
-<body bgcolor="cyan">
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b>Acer Mall Exclusive Store</b></h3>
-<hr size="3" color="white">
-<p align="center">
-<font face="Georgia" size="5">
- 1)Acer Mall Exclusive Store, located in Ground Floor, Opp.Madras Bus Stand, Main Road, Nellore, Andhra Pradesh, 524001<br>
-2)Acer exclusive stores are the perfect place to find the latest and greatest in Acer technology. With knowledgeable staff on hand to help you find the perfect product.<br>
-
-</p>
-</body>
+            
+        
+            </map> 
+        </center> 
+    </body>
 </html>
 ```
-```
-benelli.html
+### Pheonix Marketcity:
+```<html>
+    <head>
+        <title>Pheonix Marketcity</title>
+    </head>
+    <body bgcolor="lavender">
+        <h1 align="center">PHEONIX MARKETCITY</h1>
+        <p>Phoenix MarketCity, located in Velachery, Chennai, is one of the largest and most vibrant shopping malls in the city. Since its opening in 2013, it has become a prime destination for shopping, dining, and entertainment, attracting a diverse crowd from across the region. The mall houses a vast array of retail outlets, offering both high-end luxury brands and popular fashion retailers, including international names like H&M, Zara, Marks & Spencer, and Sephora, alongside Indian favorites. It caters to various shopping preferences, making it a one-stop location for clothing, electronics, accessories, and home essentials, with anchor stores like Landmark, Lifestyle, and Home Centre.
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Benelli Keeway</title>
-</head>
-<body bgcolor="lavender">
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b>Benelli Keeway</b></h3>
-<hr size="3" color="white">
-<p align="center">
-<font face="Georgia" size="5">
- 1)Benelli Keeway , located in Opp: Medicover Hospital, Sy no-932/A,Ayodhya Nagar Extension, NH16, Pinakini Avenue, Nellore, Andhra Pradesh 524003<br>
-2)Benelli is a company which develops and produces motorbikes, with registered office at Strada della Fornace Vecchia, sn, 61122 Pesaro (PU), Italy, belonging to the Qianjiang group headquartered in Wenling, Zhejiang province, China.<br>
+            In addition to shopping, Phoenix MarketCity is renowned for its extensive dining options. The food court is packed with fast-food chains like McDonald's, KFC, and Subway, providing quick bites, while numerous fine-dining restaurants and cafes such as Nando’s, Chili’s, and Starbucks offer a more leisurely experience. The mall also excels in entertainment, with its PVR Cinemas being a popular attraction for movie lovers, featuring the latest releases across multiple languages. Families and children can enjoy the gaming arcade, which offers a range of fun and interactive games.
+            
+            The mall frequently hosts live events, such as concerts, cultural performances, and brand promotions, adding to the vibrant atmosphere. Phoenix MarketCity is designed with convenience in mind, offering ample parking facilities, valet services, and easy accessibility through elevators and wide corridors, making it family-friendly and suitable for differently-abled visitors. Its strategic location in Velachery, a bustling residential and commercial hub, ensures that it is well-connected to the rest of the city, with the nearby Velachery Railway Station and a strong road network making it easily accessible.
+            
+            Overall, Phoenix MarketCity stands as a symbol of modern retail and entertainment in Chennai, blending shopping, dining, and leisure into a single destination, creating a dynamic and enjoyable experience for visitors of all ages.</p>
 
-</p>
-</body>
+            
+    </body>
 </html>
 ```
+### Grand Mall:
 ```
-dargha.html
-
-<!DOCTYPE html>
 <html>
-<head>
-<title>Barashahid Dargha</title>
-</head>
-<body bgcolor="violet">
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b>Barashahid Dargha</b></h3>
-<hr size="3" color="white">
-<p align="center">
-<font face="Georgia" size="5">
- 1)Bara Shaheed Darga , located in Bara Shaheed Darga, Ambedkar Nagar, Nellore, Andhra Pradesh 524003<br>
- 2)As per local tradition and according to stone slate in the campus of dargah that reads in Persian, they were twelve tombs of warriors part of first Muslim army to enter into the region and were martyred in the battle Of Karabala.<br>
- 3)"Bara Shaheed Dargah" literally reads "Shrine of twelve martyrs" in Urdu. Dargah is on the bank of the Nellore water tank/lake, and has eid-gah, a tourist resort, and park next to it.<br>
+    <head>
+        <title>Grand mall</title>
+    </head>
+    <body bgcolor="lavender">
+        <h1 align="center">Grand Mall</h1>
+        <p>Grand Mall Velachery is a popular shopping and entertainment destination located on Velachery Main Road in Chennai. Known for its convenient location and easy accessibility, the mall attracts a diverse crowd from nearby residential and commercial areas. It offers a wide range of shopping options with both national and international brands like Max, Lifestyle, and Reliance Digital. Apart from shopping, the mall has a variety of dining options in its food court, including popular outlets such as KFC, Subway, and traditional Indian restaurants like Sangeetha. The mall also houses a PVR Cinemas, offering the latest movie releases for entertainment. With its combination of shopping, dining, and leisure, Grand Mall provides a well-rounded experience, making it a go-to spot for families, friends, and professionals in Velachery and nearby areas.
 
-</p>
-</body>
+
+
+
+
+
+        </p>
+
+            
+    </body>
 </html>
 ```
+### Coal Barbecues:
 ```
-priyadarshini.html
-
-<!DOCTYPE html>
 <html>
-<head>
-<title>Priyadarshini College</title>
-</head>
-<body bgcolor="purple">
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b>Priyadarshini College</b></h3>
-<hr size="3" color="white">
-<p align="center">
-<font face="Georgia" size="5">
- 1)Bara Shaheed Darga , located in Bara Shaheed Darga, Ambedkar Nagar, Nellore, Andhra Pradesh 524003<br>
- 2)As per local tradition and according to stone slate in the campus of dargah that reads in Persian, they were twelve tombs of warriors part of first Muslim army to enter into the region and were martyred in the battle Of Karabala.<br>
- 3)"Bara Shaheed Dargah" literally reads "Shrine of twelve martyrs" in Urdu. Dargah is on the bank of the Nellore water tank/lake, and has eid-gah, a tourist resort, and park next to it.<br>
- 
-</p>
-</body>
+    <head>
+        <title>Coal Barbecues</title>
+    </head>
+    <body bgcolor="lavender">
+        <h1 align="center">Coal Barbecues</h1>
+        <p1>Coal Barbecues in Velachery, Chennai, is a popular dining destination known for its vibrant ambiance and mouth-watering buffet experience, particularly focusing on barbecue and grill-based dishes. Located conveniently in Velachery, it draws food enthusiasts who love indulging in a wide variety of starters, main courses, and desserts.
+
+            The restaurant offers a live grill setup on each table, where diners can cook their own barbecued items, making it an interactive dining experience. The menu features a variety of vegetarian and non-vegetarian starters, including marinated kebabs, prawns, chicken wings, and paneer. Their signature barbecues, combined with exotic sauces and flavors, cater to different palates.
+            
+            In addition to the grills, Coal Barbecues offers an extensive buffet spread that includes Indian, continental, and Chinese dishes, along with a selection of salads, soups, and desserts. The desserts section features both traditional Indian sweets and western options like cakes and ice creams, making it a delightful end to the meal.
+            
+            The warm and welcoming ambiance, combined with the live grill concept, makes Coal Barbecues an ideal spot for family gatherings, celebrations, or casual dining with friends. Known for its great service and flavorful food, it’s a must-visit for barbecue lovers in Velachery.
+
+
+
+
+
+        </p>
+
+            
+    </body>
 </html>
 ```
+### Kora Food Street:
 ```
-VPR.html
-
-<!DOCTYPE html>
 <html>
-<head>
-<title>vpr convention center</title>
-</head>
-<body bgcolor="lavender">
-<h1 align="center"><b>NELLORE</b></h1>
-<h3 align="center"><b>VPR convention center</b></h3>
-<hr size="3" color="white">
-<p align="center">
-<font face="Georgia" size="5">
- 1)VPR convention center is located in Nellore-Golagamudi Road, Kanuparthipadu, Village, Nellore, Andhra Pradesh 524004<br>
- 2)The prophet dream of Sri Vemireddy Prabhakar Reddy garu, in giving a monumental place of gathering to celebrate for the people of his home town Nellore is the origin of the very existence of the most exclusive and astounding celebration destination – THE VPR CONENTION CENTER.<br>
+    <head>
+        <title>Kora Food Street</title>
+    </head>
+    <body bgcolor="lavender">
+        <h1 align="center">Kora Food Street</h1>
+        <p1>Kora Food Street in Velachery, Chennai, is a bustling spot for food lovers, offering a wide variety of street food and quick bites in a vibrant and lively atmosphere. Known for its array of food stalls and vendors, Kora Food Street brings together flavors from different cuisines, making it a popular hangout for both locals and visitors looking for affordable and delicious food options.
 
-</p>
-</body>
+            The street is famous for serving a diverse range of dishes, from North Indian and South Indian snacks to Chinese and continental options. Popular items include chaats, momos, dosas, burgers, pizzas, and freshly grilled items. With each vendor specializing in a specific type of food, visitors can enjoy a mix of flavors in one place, making it perfect for groups with varied tastes.
+            
+            Kora Food Street is also known for its pocket-friendly prices, making it accessible to students, professionals, and families. The casual, open-air setup creates a street food vibe, adding to the charm of the place, especially in the evenings when it becomes a lively, social spot. Whether you're craving spicy chaats, sizzling kebabs, or sweet desserts, Kora Food Street offers a fulfilling and flavorful food experience in Velachery.</p>
+
+            
+    </body>
+</html>
+```
+### Dhandeeshwaram Temple:
+```
+<html>
+    <head>
+        <title>Dhandeeswaram Temple</title>
+    </head>
+    <body bgcolor="lavender">
+        <h1 align="center">Dhandeeswaram Temple</h1>
+        <p>Dhandeeswaram Temple is an ancient and revered Hindu temple located in Velachery, Chennai. Dedicated to Lord Shiva, the temple holds significant religious and cultural importance in the area. The main deity, known as Dhandeeswarar, represents Lord Shiva in the form of a "Linga," with the temple also housing a shrine for Goddess Dharmasamvardhini, a form of Parvati.
+
+            The temple’s architecture reflects traditional Dravidian styles, with intricately carved gopurams (temple towers) and stone pillars that give a sense of its historic heritage. Dhandeeswaram Temple is believed to be centuries old, and its serene environment makes it a peaceful spiritual retreat for devotees. The temple is especially crowded during important Hindu festivals such as Maha Shivaratri and Pradosham, when special rituals and prayers are conducted.
+            
+            Apart from its religious significance, the temple also plays a vital role in the community, with regular pujas, cultural events, and spiritual activities attracting devotees from across Chennai. Its location in the bustling Velachery area makes it a spiritual haven amid the urban environment, offering a place for reflection and worship.</p>
+
+            
+    </body>
 </html>
 ```
 
 
 ## OUTPUT
-![Screenshot 2024-10-13 160244](https://github.com/user-attachments/assets/ce0edd6f-53fb-42b6-84da-eef5bc723ad4)
-![Screenshot 2024-10-13 155638](https://github.com/user-attachments/assets/b0739009-8c78-4c0e-bee6-8f50aacce04b)
-![Screenshot 2024-10-13 155659](https://github.com/user-attachments/assets/625ee3b7-7a7e-40db-87e7-2fc70b045de9)
-![Screenshot 2024-10-13 155722](https://github.com/user-attachments/assets/01a53f56-1e08-4959-82ea-35772955caa8)
-![Screenshot 2024-10-13 155742](https://github.com/user-attachments/assets/e645138d-80cf-4b0d-8473-789dfd6b2e27)
-
+### Velachery Map:
+![Screenshot 2024-10-16 183826](https://github.com/user-attachments/assets/3ae7d020-d162-41c4-80e3-37a9a5119bcf)
+### Pheonix Marketcity:
+![Screenshot 2024-10-16 183905](https://github.com/user-attachments/assets/f4ccb89a-1d5e-4323-a3e4-fd5d18f5bce6)
+### Grand Mall:
+![Screenshot 2024-10-16 183921](https://github.com/user-attachments/assets/f32efc62-1911-43cc-a901-7a76fc04c5a0)
+### Coal Barbecues:
+![Screenshot 2024-10-16 183933](https://github.com/user-attachments/assets/3d3ef22d-e05e-4c4d-a446-ff92db1f77a0)
+### Kora Food Street:
+![Screenshot 2024-10-16 183945](https://github.com/user-attachments/assets/bf151262-82c7-42e6-b5c0-e832fdad43be)
+### Dhandeeshwaram Temple:
+![Screenshot 2024-10-16 183959](https://github.com/user-attachments/assets/2b382c05-fa67-4d3d-ba21-e76e50a40c2e)
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
